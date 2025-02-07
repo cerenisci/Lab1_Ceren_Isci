@@ -26,7 +26,7 @@ struct ContentView: View {
                     Text("Prime")
                         .font(.title)
                         .padding()
-                        .frame(width: 120, height: 45)
+                        .frame(width: 125, height: 45)
                         .background(Color.navy)
                         .foregroundColor(.yellow)
                         .cornerRadius(11)
