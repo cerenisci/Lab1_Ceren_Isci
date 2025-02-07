@@ -38,7 +38,7 @@ struct ContentView: View {
                     Text(" Not Prime")
                         .font(.title)
                         .padding()
-                        .frame(width: 120, height: 50)
+                        .frame(width: 125, height: 50)
                         .background(Color.blue)
                         .foregroundColor(.gray)
                         .cornerRadius(9)
