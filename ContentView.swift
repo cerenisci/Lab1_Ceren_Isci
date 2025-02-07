@@ -35,7 +35,7 @@ struct ContentView: View {
                 Button(action: {
                     checkAnswer(isPrimeSelected: false)
                 }) {
-                    Text("Not Prime")
+                    Text("Prime")
                         .font(.title)
                         .padding()
                         .frame(width: 120, height: 50)
