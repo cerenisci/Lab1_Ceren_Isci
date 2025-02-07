@@ -48,7 +48,7 @@ struct ContentView: View {
             if let correct = showCorrect {
                 Image(systemName: correct ? "checkmark.circle.fill" : "xmark.circle.fill")
                     .font(.system(size: 62))
-                    .foregroundColor(correct ? .blue : .red)
+                    .foregroundColor(correct ? .blue : .pink)
                     .transition(.scale)
             }
 
