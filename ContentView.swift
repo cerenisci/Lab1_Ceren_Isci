@@ -58,7 +58,7 @@ struct ContentView: View {
             Alert(
                 title: Text("Game Over"),
                 message: Text("Correct: \(correctAnswers)\nWrong: \(wrongAnswers)"),
-                dismissButton: .default(Text("OK")) {
+                dismissButton: .default(Text("OK!")) {
                     resetGame()
                 }
             )
