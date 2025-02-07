@@ -29,7 +29,7 @@ struct ContentView: View {
                         .frame(width: 120, height: 45)
                         .background(Color.navy)
                         .foregroundColor(.yellow)
-                        .cornerRadius(10)
+                        .cornerRadius(11)
                 }
 
                 Button(action: {
