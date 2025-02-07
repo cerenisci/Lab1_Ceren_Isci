@@ -10,7 +10,7 @@ struct ContentView: View {
     @State private var timer: Timer? = nil
 
     var body: some View {
-        VStack(spacing: 20) {
+        VStack(spacing: 22) {
             Text("Is this number prime?")
                 .font(.title)
                 .padding()
