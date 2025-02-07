@@ -11,7 +11,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack(spacing: 22) {
-            Text("Is this number prime?")
+            Text("Is the number prime?")
                 .font(.title)
                 .padding()
             
