@@ -56,7 +56,7 @@ struct ContentView: View {
         .onAppear(perform: startTimer)
         .alert(isPresented: $showResult) {
             Alert(
-                title: Text("Game Summary"),
+                title: Text("Game Over"),
                 message: Text("Correct: \(correctAnswers)\nWrong: \(wrongAnswers)"),
                 dismissButton: .default(Text("OK")) {
                     resetGame()
